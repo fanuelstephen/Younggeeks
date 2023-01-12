@@ -1,0 +1,182 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700&family=Work+Sans:wght@400;500;600;700&display=swap");
+/* 
+- Font sizes (px)
+10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98
+
+
+- Spacing system (px)
+2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128
+*/
+
+* {
+  padding: 0;
+  margin: 0;
+}
+html {
+  box-sizing: border-box;
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+  font-family: "Work Sans", sans-serif;
+}
+/* RESUSABLE PROPERTIES */
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.grid {
+  display: grid;
+  gap: 2rem;
+}
+.grid--3-cols {
+  grid-template-columns: repeat(3, 1fr);
+}
+
+/* HEADEER */
+header {
+  height: 100vh;
+  background-image: linear-gradient(rgba(3, 3, 3, 0.83), rgba(3, 3, 3, 0.83)),
+    url(/img/photo.avif);
+  background-size: cover;
+}
+.header-nav {
+  padding: 50px 4rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 0.8rem;
+  color: #fff;
+}
+.header-nav-iner {
+  display: flex;
+  align-items: center;
+  gap: 9.6rem;
+}
+.logo {
+  font-size: 3.6rem;
+  font-weight: 700;
+}
+.header-ul {
+  list-style: none;
+}
+.list-item {
+  display: flex;
+  gap: 4.8rem;
+}
+.filled {
+  color: blue;
+  border-bottom: 2px solid blue;
+}
+.link-icon {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+}
+.header-icon {
+  width: 18px;
+  height: 18px;
+}
+.header-link,
+.filled {
+  text-decoration: none;
+}
+.filled {
+  font-size: 1.8rem;
+}
+
+.header-link,
+.header-signin {
+  font-size: 1.8rem;
+  color: #fff;
+}
+.header-signin:link,
+.header-link:visited {
+  text-decoration: none;
+  margin-right: 2rem;
+  cursor: pointer;
+  transition: all 1s;
+}
+
+.header-signin:hover,
+.header-link:active {
+  text-decoration: underline;
+}
+.btn-cta {
+  font-size: 1.8rem;
+  background-color: blue;
+  border: none;
+  color: #fff;
+  padding: 10px 28px;
+  border-radius: 9px;
+  cursor: pointer;
+}
+.primary-heading {
+  font-size: 4rem;
+  margin-bottom: 2rem;
+}
+.header-paragraph {
+  font-size: 1.2rem;
+  line-height: 1.8;
+  margin-bottom: 8rem;
+}
+.header-container {
+  padding: 50px 4rem;
+  color: #fff;
+}
+.inner {
+  width: 50%;
+}
+
+/* ABOUT */
+.about {
+  background-color: #fff;
+}
+.about-box {
+  padding: 50px 4rem;
+}
+h3 {
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+}
+.about-text {
+  font-size: 1.2rem;
+  line-height: 1.8;
+  margin-bottom: 6.4rem;
+}
+.about-header {
+  font-size: 1.4rem;
+  margin-bottom: 1.2rem;
+}
+.about-icon {
+  display: flex;
+  gap: 1.6rem;
+  align-items: center;
+}
+.icon {
+  width: 2rem;
+  height: 2rem;
+  color: #7bb7fa;
+  background-color: #f5f5f5;
+  border-radius: 50%;
+  padding: 6px;
+}
+.about-disciption {
+  font-size: 1.2rem;
+  line-height: 1.8;
+  margin-left: 5rem;
+}
+.about-testimonio {
+  column-gap: 9.6rem;
+  row-gap: 6.4rem;
+}
+
+/* - Font sizes (px)
+10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98
+
+
+- Spacing system (px)
+2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128
+*/
