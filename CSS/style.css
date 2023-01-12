@@ -33,7 +33,10 @@ body {
 .grid--3-cols {
   grid-template-columns: repeat(3, 1fr);
 }
-
+.grid--4-cols {
+  grid-template-columns: repeat(4, 1fr);
+}
+/* *********************************************************************************** */
 /* HEADEER */
 header {
   height: 100vh;
@@ -129,7 +132,7 @@ header {
 .inner {
   width: 50%;
 }
-
+/* *************************************************************************************** */
 /* ABOUT */
 .about {
   background-color: #fff;
@@ -143,6 +146,7 @@ h3 {
 }
 .about-text {
   font-size: 1.2rem;
+  color: #aaa;
   line-height: 1.8;
   margin-bottom: 6.4rem;
 }
@@ -165,12 +169,46 @@ h3 {
 }
 .about-disciption {
   font-size: 1.2rem;
+  color: #aaa;
   line-height: 1.8;
   margin-left: 5rem;
 }
 .about-testimonio {
   column-gap: 9.6rem;
   row-gap: 6.4rem;
+}
+
+/* **************************************************************************** */
+/* PORTFOLIO */
+.portfolio {
+  background-color: #fff;
+}
+.portfolio-img-box {
+  row-gap: 4.8rem;
+}
+.portfolio-box,
+.portfolio-img-box {
+  padding: 0 4rem;
+}
+.portfolio-text {
+  font-size: 1.2rem;
+  color: #aaa;
+  line-height: 1.8;
+  margin-bottom: 4.8rem;
+}
+
+.portfolio-img {
+  width: 270px;
+  height: 150px;
+  border-radius: 5px;
+  margin-bottom: 0.5rem;
+}
+.img-header {
+  font-size: 13px;
+  margin-bottom: 0.5rem;
+}
+.img-tetx {
+  color: #aaa;
 }
 
 /* - Font sizes (px)
