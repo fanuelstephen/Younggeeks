@@ -142,6 +142,7 @@ header {
 }
 h3 {
   font-size: 2rem;
+  line-height: 1.5;
   margin-bottom: 1.5rem;
 }
 .about-text {
@@ -229,6 +230,156 @@ h3 {
   line-height: 1.8;
   margin-bottom: 4.8rem;
 }
+
+/* *********************************************************************************** */
+/* TESTIMONIAL */
+.testimonial {
+  padding: 8rem 4rem;
+}
+.testimonial-text-box {
+  padding: 3rem 4rem;
+  /* background-color: #f9f9f9; */
+  background-color: #f3f3f3;
+  display: flex;
+  gap: 3rem;
+  justify-content: space-between;
+  margin-bottom: 9.6rem;
+}
+.testiomonial-text {
+  margin-top: 6.4rem;
+}
+h6 {
+  font-size: 1.5rem;
+  color: #bbb;
+  margin-bottom: 1.2rem;
+}
+.testimonial-paragrap {
+  font-size: 1.5rem;
+  line-height: 1.8;
+  margin-bottom: 3.2rem;
+}
+
+.testimonial-link {
+  font-size: 1.8rem;
+  color: #333;
+}
+.map-img {
+  width: 615px;
+  height: 370px;
+}
+/* &&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&& */
+.testimonial-client-box {
+  padding: 8rem 4rem;
+  background-color: #fff;
+}
+.two-client {
+  display: flex;
+  gap: 6.4rem;
+}
+.client {
+  display: flex;
+  align-items: center;
+  gap: 2.5rem;
+}
+blockquote {
+  font-size: 1.5rem;
+  line-height: 1.5;
+}
+.client-img {
+  width: 137px;
+  height: 137px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+h5 {
+  font-size: 1.5rem;
+  color: #333;
+  margin-bottom: 1rem;
+  margin-top: 1.5rem;
+}
+/* ******************************************************* */
+/* FOOOTER */
+.footer-box {
+  background-color: #f9f9f9;
+  padding: 8rem 4rem;
+  display: flex;
+  gap: 4.8rem;
+  justify-content: space-between;
+  border-bottom: 2px solid #ddd;
+}
+.footer-discription {
+  margin-top: 2.4rem;
+  font-size: 1.2rem;
+  line-height: 1.8;
+  color: #bbb;
+  margin-bottom: 1.8rem;
+}
+h2 {
+  font-size: 1.8rem;
+  margin-bottom: 2.4rem;
+}
+.form-box {
+  border: 2px solid blue;
+  border-radius: 6px;
+}
+.form-box input {
+  font-size: 15px;
+  color: blue;
+  background-color: #f9f9f9;
+  border: none;
+  padding: 5px 10px;
+  outline: none;
+}
+.form-box button {
+  color: #fff;
+  padding: 15px 45px;
+  font-size: 15px;
+  border: none;
+  background-color: blue;
+}
+.social-icons {
+  display: flex;
+  gap: 3.2rem;
+  margin-top: 3.4rem;
+}
+.social-icon {
+  color: blue;
+  cursor: pointer;
+  width: 2.5rem;
+  height: 2.5rem;
+}
+h4 {
+  font-size: 1.5rem;
+  line-height: 1.5;
+  margin-bottom: 1.5rem;
+}
+.footer-text {
+  column-gap: 6.4rem;
+}
+.footer-list {
+  list-style: none;
+}
+.footer-link {
+  text-decoration: none;
+  font-size: 1.4rem;
+  color: #bbb;
+  line-height: 2.8;
+}
+.footer-end {
+  background-color: #f9f9f9;
+  padding: 2rem 4rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.end-list {
+  list-style: none;
+  font-size: 10px;
+  display: flex;
+  gap: 4.8rem;
+  align-items: center;
+}
+
 /* - Font sizes (px)
 10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98
 
