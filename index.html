@@ -15,70 +15,72 @@
     ></script>
 
     <link rel="stylesheet" href="/CSS/style.css" />
+    <link rel="stylesheet" href="queries.css" />
     <title>Younggeeks</title>
   </head>
   <body>
     <header class="container">
-      <div class="header-nav container">
-        <div class="header-nav-iner">
-          <p class="logo">Younggeeks</p>
-          <div>
-            <ul class="header-ul">
-              <li class="list-item">
-                <a class="filled" href="#">Home</a>
-                <a class="header-link" href="#">Product</a>
-                <div class="link-icon">
-                  <a class="header-link" href="#">Solutions</a>
-                  <ion-icon
-                    class="header-icon"
+      <div class="logo-nav container">
+        <div class="nav">
+          <p class="logo">Younggeeks</p>   
+          <ul class="navbar">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">product</a></li>
+            <li class="icon-bar">
+              <a href="#">Solution</a>
+              <ion-icon
+                    class="a-icon"
                     name="chevron-down-outline"
                   ></ion-icon>
-                </div>
-                <div class="link-icon">
-                  <a class="header-link" href="#">Use cases</a>
-                  <ion-icon
-                    class="header-icon"
+            </li>
+
+            <li class="icon-bar">
+              <a href="#">Use Case</a>
+              <ion-icon
+                    class="a-icon"
                     name="chevron-down-outline"
                   ></ion-icon>
-                </div>
-              </li>
-            </ul>
-          </div>
+            </li>
+            <div>
+              <a class="sign-in-link" href="#"> Sing in</a>
+              <button class="cta">Get started</button>
+            </div>
+          </ul>
         </div>
-        <div>
-          <a class="header-signin" href="#"> Sing in</a>
-          <button class="btn-cta">Get started</button>
-        </div>
+       
+        <!-- mobile menu -->
+        <ion-icon class="bx-menu" name="menu-outline"></ion-icon>
       </div>
 
-      <div class="header-container container">
+
+      <div class="header-text container">
         <div class="inner">
-          <h2 class="primary-heading">Start you business with Younggeeks</h2>
-          <p class="header-paragraph">
+          <h2>Start you business with Younggeeks</h2>
+          <p>
             Lorem, ipsum dolor sit amet consectetur adipisicing elit. A iure
             itaque asperiores possimus deleniti laborum exercitationem aperiam
             quam, voluptatibus, mollitia accusamus dolorum tempore doloremque
             incidunt necessitatibus temporibus totam quaerat enim!
           </p>
-          <butto class="btn-cta">Sign up</butto>
+          <butto class="cta">Sign up</butto>
         </div>
       </div>
     </header>
   <Main>
     <section class="about container">
-      <div class="about-box">
+      <div class="about-header">
         <h3>About</h3>
-        <p class="about-text">
+        <p>
           Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quisquam
           tempore accusamus <br />Quisquam tempore accusamus dignissimos maxime.  
         </p>
-        <div class="about-testimonio grid grid--3-cols">
+        <div class="about-box grid grid--3-cols">
           <div>
             <div class="about-icon">
               <ion-icon class="icon" name="shield-checkmark-outline"></ion-icon>
-              <h4 class="about-header">Quality</h4>
+              <h4>Quality</h4>
             </div>
-            <p class="about-disciption">
+            <p>
               Rerem ipsum dolor, sit amet consectetur adipisicing elit. Quisquam
               tempore accusamus Nesciunt eum quisquam aspernatur illo eius ullam
             </p>
@@ -87,9 +89,9 @@
           <div>
             <div class="about-icon">
               <ion-icon class="icon" name="skull-outline"></ion-icon>
-              <h4 class="about-header">Helpfuly</h4>
+              <h4>Helpfuly</h4>
             </div>
-            <p class="about-disciption">
+            <p>
               Parem ipsum dolor, sit amet consectetur adipisicing elit. Quisquam
               tempore accusamus Nesciunt eum quisquam aspernatur illo eius ullam
             </p>
@@ -98,9 +100,9 @@
           <div>
             <div class="about-icon">
               <ion-icon class="icon" name="time-outline"></ion-icon>
-              <h4 class="about-header">Time Saver</h4>
+              <h4>Time Saver</h4>
             </div>
-            <p class="about-disciption">
+            <p>
              Ipsum dolor, sit amet consectetur adipisicing elit. Quisquam
               tempore accusamus Nesciunt eum quisquam aspernatur illo eius ullam
             </p>
@@ -109,9 +111,9 @@
           <div>
             <div class="about-icon">
               <ion-icon class="icon" name="folder-outline"></ion-icon>
-              <h4 class="about-header">Efficient</h4>
+              <h4>Efficient</h4>
             </div>
-            <p class="about-disciption">
+            <p>
               Tremn ipsum dolor, sit amet consectetur adipisicing elit. Quisquam
               tempore accusamus Nesciunt eum quisquam aspernatur illo eius ullam
             </p>
@@ -120,9 +122,9 @@
           <div>
             <div class="about-icon">
               <ion-icon class="icon" name="shield-checkmark-outline"></ion-icon>
-              <h4 class="about-header">Trusted</h4>
+              <h4>Trusted</h4>
             </div>
-            <p class="about-disciption">
+            <p>
               Promt ipsum dolor, sit amet consectetur adipisicing elit. Quisquam
               tempore accusamus Nesciunt eum quisquam aspernatur illo eius ullam
             </p>
@@ -131,9 +133,9 @@
           <div>
             <div class="about-icon">
               <ion-icon class="icon" name="sync-outline"></ion-icon>
-              <h4 class="about-header">Easy</h4>
+              <h4>Easy</h4>
             </div>
-            <p class="about-disciption">
+            <p>
               Actual ipsum dolor, sit amet consectetur adipisicing elit. Quisquam
               tempore accusamus Nesciunt eum quisquam aspernatur illo eius ullam
             </p>
@@ -142,134 +144,118 @@
     </section>
 
     <section class="portfolio container">
-      <div class="portfolio-box">
+      <div class="portfolio-header">
         <h3>Porfolio</h3>
-        <p class="portfolio-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quisquam
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quisquam
           tempore accusamus <br />Quisquam tempore accusamus  dignissimos maxime. .</p>
       </div>
      
-      <div class="portfolio-img-box grid grid--4-cols">
+      <div class="portfolio-photos grid grid--4-cols">
         <div>
-          <img class="portfolio-img" src="img/coutch.jpg" alt="">
-          <h6 class="img-header">Miminalism</h6>
-          <P class="img-tetx">Nature</P>
+          <img src="img/coutch.jpg" alt="">
+          <h6>Miminalism</h6>
+          <P>Nature</P>
         </div>
 
         <div>
-          <img class="portfolio-img" src="img/technology.avif" alt="">
-          <h6 class="img-header">Tecnology</h6>
-          <P class="img-tetx">Tech</P>
+          <img src="img/technology.avif" alt="">
+          <h6>Tecnology</h6>
+          <P>Tech</P>
         </div>
 
         <div>
-          <img class="portfolio-img" src="img/architecture.avif" alt="">
-          <h6 class="img-header">Architecture</h6>
-          <P class="img-tetx">Life</P>
+          <img src="img/architecture.avif" alt="">
+          <h6>Architecture</h6>
+          <P>Life</P>
         </div>
 
         <div>
-          <img class="portfolio-img" src="img/abstract.avif" alt="">
-          <h6 class="img-header">Abstract</h6>
-          <P class="img-tetx">Nature</P>
+          <img src="img/abstract.avif" alt="">
+          <h6>Abstract</h6>
+          <P>Nature</P>
         </div>
 
         <div>
-          <img class="portfolio-img" src="img/portrate.avif" alt="">
-          <h6 class="img-header">Portarait</h6>
-          <P class="img-tetx">Nature</P>
+          <img src="img/portrate.avif" alt="">
+          <h6>Portarait</h6>
+          <P>Nature</P>
         </div>
 
         <div>
-          <img class="portfolio-img" src="img/texture.avif" alt="">
-          <h6 class="img-header">Texture</h6>
-          <P class="img-tetx">Travel/Nature</P>
+          <img src="img/texture.avif" alt="">
+          <h6>Texture</h6>
+          <P>Travel/Nature</P>
         </div>
 
         <div>
-          <img class="portfolio-img" src="img/art.avif" alt="">
-          <h6 class="img-header">Art</h6>
-          <P class="img-tetx">Life</P>
+          <img src="img/art.avif" alt="">
+          <h6>Art</h6>
+          <P>Life</P>
         </div>
 
         <div>
-          <img class="portfolio-img" src="img/interial.avif" alt="">
-          <h6 class="img-header">Interial</h6>
-          <P class="img-tetx">Nature</P>
+          <img src="img/interial.avif" alt="">
+          <h6>Interial</h6>
+          <P>Nature</P>
         </div>
       </div>
     </section>
 
     <section class="news container">
-      <div class="news-box">
+      <div class="news-text">
         <div>
           <h3>Our News</h3>
-        <p class="news-tetx">Lorem ipsum, dolor sit amet consectetur  adipisicing elit.
-          Facilis explicabo <br> adipisci excepturi unde nam in  saepe asperiore
-          Enim eveniet quo,  <br> veritatis dolore quaerat nobis placeat ab, 
-          error, temporibus distinctio ratione! <br> Lorem ipsum, dolor sit amet
-          consectetur adipisicing elit. Facilis explicabo adipisci <br>
-          excepturi unde nam in saepe asperiores. Enim eveniet quo, 
-          veritatis dolore quaerat <br> nobis placeat ab, 
-          error, temporibus distinctio ratione!</p>
+          <p>Lorem ipsum, dolor sit amet consectetur  adipisicing elit.
+            Facilis explicabo  adipisci excepturi unde nam in  saepe asperiore
+            Enim eveniet quo, veritatis dolore quaerat nobis placeat ab, 
+            error, temporibus distinctio ratione!  Lorem ipsum, dolor sit amet
+            consectetur adipisicing elit. Facilis explicabo adipisci 
+            excepturi unde nam in saepe asperiores. </p>
         </div>
-
-      <div class="news-img">
         <div>
-          <img class="portfolio-img" src="img/interial.avif" alt="">
-          <h6 class="img-header">Lorem ipsum</h6>
-          <P class="img-tetx">Dolor sit amet consectetur adipis</P>
+          <img src="img/interial.avif" alt="">
+          <h6>Lorem ipsum</h6>
+          <P class="discription">Dolor sit amet consectetur adipis</P>
         </div>
   
         <div>
-          <img class="portfolio-img" src="img/interial.avif" alt="">
-          <h6 class="img-header">Lorem ipsum</h6>
-          <P class="img-tetx">Dolor sit amet consectetur adipis</P>
+          <img src="img/interial.avif" alt="">
+          <h6>Lorem ipsum</h6>
+          <P class="discription">Dolor sit amet consectetur adipis</P>
         </div>
       </div>
     </div>
     </section>
     
     <section class="testimonial container">
-     <div class="testimonial-box">
-      <div class="testimonial-text-box">
-       <div class="testiomonial-text">
-        <h6>Category</h6>
-        <h3>Together we can connect each other, 
+     <div class="testimonial-content">
+     <div class="testimonial-text">
+      <div>
+        <h6>Together we can connect each other, 
           Quality and raliability build into everything we do
-        </h3>
-          <p class="testimonial-paragrap">Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-               Ratione magni mollitia, pariatur voluptates nemo qui porro magnam totam quia dolor quidem dolores dolorum error ipsam
-            .Odit eligendi doloremque voluptatem mollitia?
-          </p>
-          <a class="testimonial-link" href="#">Learn More</a>
+        </h6>
+        <p>Lorem ipsum dolor sit amet consectetur a
+            dipisicing elit. Dicta quae ea, deleniti vero 
+            fugit error mollitia ipsam quis recusandae rerum
+            fugiat magni, eius expedita unde sint tempore 
+            labore itaque perspiciatis perferendis aperiam 
+            nulla nesciunt amet. Alias, consequatur nisi 
+            ipsa aliquam quas quasi, molestias illum, quos
+            sunt incidunt
+            debitis cumque temporibus.</p>
+          <a href="#">Learn More</a>
        </div>
-       <div>
+      
         <img  class="map-img" src="img/map4.jpg" alt="map">
-       </div>
-      </div>
-      <!-- ******************************************************* -->
-      <!-- <div class="card">
-        <div class="card-txt">
-          <h5 class="card-header">
-            Find out our nearest <br> service provide in your <br> town
-          </h5>
-          <p class="card-description">
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-             Voluptas, non nisi aut voluptatibus est quo <br> repudiandae, quia, 
-             vero ullam provident atque tenetur impedit.
-             Esse quibusdam quas  <br> voluptates fugiat tenetur doloribus.
-          </p>
-          <button class="card-btn">Get my card</button>
-        </div>
-          <img  class="card-img" src="img/location.jpg" alt=" location">  
-      </div> -->
-      <!-- ******************************************************* -->
-      <div class="testimonial-client-box">
+       
+     </div>
+      
+      <div class="client">
         <h3>What our client say</h3>
-      <div class="two-client">
-        <div class="client">
-          <img class="client-img" src="img/client-one.avif" alt="client">
-          <div class="client-info">
+      <div class="client-content">
+        <div class="box-x">
+          <img src="img/client-one.avif" alt="client">
+          <div>
             <h5>Poppin Lora</h5>
             <blockquote>
               "Ratione magni mollitia, pariatur voluptates nemo  <br>porro magnam totam quia dolor quidem dolores dolorum error ipsam
@@ -278,9 +264,9 @@
             <h5>Software Developer</h5>
           </div>
         </div>
-        <div class="client">
-          <img class="client-img" src="img/client-one.avif" alt="client">
-          <div class="client-info">
+        <div class="box-x" >
+          <img src="img/client-one.avif" alt="client">
+          <div>
             <h5>Avenir Mont</h5>
             <blockquote>
               "Ratione magni mollitia, pariatur voluptates nemo  <br>porro magnam totam quia dolor quidem dolores dolorum error ipsam
@@ -293,87 +279,103 @@
       </div>
     </div>
     </section>
+    <!-- ******************************************************* -->
+      <!-- <div class="card">
+        <div class="card-txt">
+          <h5 class="card-header">
+            Find out our nearest <br> service provide in your <br> town
+          </h5>
+          <p class="card-description">
+             Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+             Voluptas, non nisi aut voluptatibus est quo <br> repudiandae, quia, 
+             vero ullam provident atque tenetur impedit.
+             Esse quibusdam quas  <br> voluptates fugiat tenetur doloribus.
+          </p>
+          <button class="card-btn">Get my card</button>
+        </div>
+          <img  class="card-img" src="img/location.jpg" alt=" location">  
+      </div> -->
+      <!--********************************************************-->
   </Main>
 
-  <footer>
-    <div class="footer-box container">
-      <div class="footer-logo">
-        <p class="logo">Younggeeks</p>
-        <p class="footer-discription">Lorem ipsum dolor sit amet consectetur <br> 
-          adipisicing elit. At, earum. Fuga adipisci modi <br>
-          provident earum. 
-        </p>
-        <h2>Stay connected</h2>
-        <div class="form">
-          <form action="#">
-            <div class="form-box">
-              <input type="emaill" name="EmailAdress" placeholder="Email Address">
-              <button type="submit">Submit</button>
-            </div>
-          </form>
+  <footer class="container">
+      <div class="footer-content">
+        <div class="footer-info">
+          <h2>Younggeeks</h2>
+          <p>Lorem ipsum dolor sit amet consectetur <br> 
+            adipisicing elit. At, earum. Fuga adipisci modi <br>
+            provident earum. 
+          </p>
+          <h3>Stay connected</h3>
+
+            <form action="#">
+              <div class="form-box">
+                <input type="emaill" name="EmailAdress" placeholder="masterstee03@gmail.com" required>
+                <button type="submit">Submit</button>
+              </div>
+            </form>
+          
+          <div class="social-media">
+            <ion-icon class="social-icon" name="logo-twitter"></ion-icon>
+            <ion-icon class="social-icon" name="logo-linkedin"></ion-icon>
+            <ion-icon class="social-icon" name="logo-facebook"></ion-icon>
+            <ion-icon class="social-icon" name="logo-instagram"></ion-icon>
+          </div>
         </div>
-        <div class="social-icons">
-          <ion-icon class="social-icon" name="logo-twitter"></ion-icon>
-          <ion-icon class="social-icon" name="logo-linkedin"></ion-icon>
-          <ion-icon class="social-icon" name="logo-facebook"></ion-icon>
-          <ion-icon class="social-icon" name="logo-instagram"></ion-icon>
-        </div>
+        <!-- *************************************** -->
+        <div class="footer-list grid grid--3-cols">
+          <div>
+            <h4>How it works</h4>
+            <ul>
+              <li><a href="#">Hire us</a></li> 
+              <li><a href="#">Lorem ipsam</a></li> 
+              <li><a href="#">consectetur</a></li> 
+              <li><a href="#">voluptates</a></li>
+              <li><a href="#">adipisicing</a></li>
+              <li><a href="#">tempore</a></li>
+            </ul>
+           </div>
+           <div>
+            <h4>Solutions</h4>
+            <ul>
+              <ul>
+                <li><a href="#">Hire us</a></li> 
+                <li><a href="#">Lorem ipsam</a></li> 
+                <li><a href="#">consectetur</a></li> 
+                <li><a href="#">voluptates</a></li>
+                <li><a href="#">adipisicing</a></li>
+                <li><a href="#">tempore</a></li>
+              </ul>
+            </ul>
+           </div>
+           <div>
+            <h4>Resources</h4>
+            <ul>
+              <ul>
+                <li><a href="#">Hire us</a></li> 
+                <li><a href="#">Lorem ipsam</a></li> 
+                <li><a href="#">consectetur</a></li> 
+                <li><a href="#">voluptates</a></li>
+                <li><a href="#">adipisicing</a></li>
+                <li><a href="#">tempore</a></li>
+              </ul>
+            </ul>
+          </div>
+          </div>
       </div>
-      <!-- *************************************** -->
-      <div class="footer-text grid grid--3-cols">
-       
-        <div>
-          <h4>How it works</h4>
-          <ul class="footer-list">
-            <li><a class="footer-link" href="#">Hire us</a></li> 
-            <li><a class="footer-link" href="#">Lorem ipsam</a></li> 
-            <li><a class="footer-link" href="#">consectetur</a></li> 
-            <li><a class="footer-link" href="#">voluptates</a></li>
-            <li><a class="footer-link" href="#">adipisicing</a></li>
-            <li><a class="footer-link" href="#">tempore</a></li>
-          </ul>
-         </div>
-         <div>
-          <h4>Solutions</h4>
-          <ul>
-            <ul class="footer-list">
-              <li><a class="footer-link" href="#">Hire us</a></li> 
-              <li><a class="footer-link" href="#">Lorem ipsam</a></li> 
-              <li><a class="footer-link" href="#">consectetur</a></li> 
-              <li><a class="footer-link" href="#">voluptates</a></li>
-              <li><a class="footer-link" href="#">adipisicing</a></li>
-              <li><a class="footer-link" href="#">tempore</a></li>
+    
+      <div class="footer-end container">   
+          <p>&copy; Copyright 2023 / <strong><em>by stee</em></strong>. All rights reserved</p>
+          <div>
+            <ul>
+              <li>Disclaimer</li>
+              <li>Privacy Policy</li>
+              <li>terms of service</li>
+              <li>Cookie police</li>
+              <li>Cookie settings</li>
             </ul>
-          </ul>
-         </div>
-         <div>
-          <h4>Resources</h4>
-          <ul>
-            <ul class="footer-list">
-              <li><a class="footer-link" href="#">Hire us</a></li> 
-              <li><a class="footer-link" href="#">Lorem ipsam</a></li> 
-              <li><a class="footer-link" href="#">consectetur</a></li> 
-              <li><a class="footer-link" href="#">voluptates</a></li>
-              <li><a class="footer-link" href="#">adipisicing</a></li>
-              <li><a class="footer-link" href="#">tempore</a></li>
-            </ul>
-          </ul>
-        </div>
-        </div>
-    </div>
-  
-    <div class="footer-end container">   
-        <p>&copy; Copyright 2023 / <strong><em>by stee</em></strong>. All rights reserved</p>
-        <div>
-          <ul class="end-list">
-            <li>Disclaimer</li>
-            <li>Privacy Policy</li>
-            <li>terms of service</li>
-            <li>Cookie police</li>
-            <li>Cookie settings</li>
-          </ul>
-        </div>
-    </div>
+          </div>
+      </div>
   </footer>
   </body>
 </html>
