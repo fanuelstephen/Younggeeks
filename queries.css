@@ -114,74 +114,8 @@
   }
 }
 
-/* MOBILE L */
-@media only screen and (max-width: 426px) {
-  .logo {
-    font-size: 2.8rem;
-  }
-  .header-text h2 {
-    font-size: 1.5rem;
-    margin-bottom: 2rem;
-  }
-  .header-text p {
-    font-size: 1rem;
-    line-height: 1.8;
-    margin-bottom: 3rem;
-  }
-  header {
-    height: 110vh;
-  }
-  .grid--3-cols {
-    grid-template-columns: repeat(2, 1fr);
-  }
-  .about-header {
-    padding: 5px 4rem;
-  }
-  .about-box {
-    column-gap: 3rem;
-    row-gap: 0;
-  }
-  .news-text {
-    grid-template-columns: 1fr;
-    padding: 5rem 4rem;
-  }
-  .testimonial {
-    padding: 0 0;
-  }
-  .map-img {
-    width: 452px;
-    height: 369px;
-  }
-  .client-content {
-    flex-direction: column;
-  }
-  .footer-content {
-    flex-direction: column;
-  }
-  .form-box {
-    width: 85%;
-  }
-  .form-box button {
-    padding: 13px 28px;
-    font-size: 10px;
-  }
-  .form-box input {
-    font-size: 13px;
-  }
-  .footer-end {
-    flex-direction: column;
-  }
-  .footer-end p {
-    font-size: 15px;
-  }
-  .footer-end ul {
-    margin-top: 10px;
-    font-size: 10px;
-    gap: 10px;
-  }
-}
 /* MOBILE M */
-@media only screen and (max-width: 376px) {
+@media only screen and (max-width: 375px) {
   .logo {
     font-size: 2rem;
   }
@@ -214,13 +148,13 @@
     font-size: 8px;
   }
   .form-box {
-    width: 100%;
+    width: 99vmin;
   }
   .form-box button {
-    font-size: 13px;
+    font-size: 11px;
   }
   .form-box input {
-    font-size: 12px;
+    font-size: 13px;
   }
   .footer-end p {
     font-size: 14px;
@@ -289,3 +223,74 @@
     gap: 10px;
   }
 }
+
+@media only screen and (device-width: 414px) {
+  .logo {
+    font-size: 2.8rem;
+  }
+  .header-text h2 {
+    font-size: 1.3rem;
+    margin-bottom: 1rem;
+  }
+  .header-text p {
+    font-size: 12px;
+    line-height: 1.5;
+    margin-bottom: 5rem;
+  }
+  .grid--3-cols {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .about-box {
+    column-gap: 1.8rem;
+    row-gap: 0;
+  }
+  .news-text {
+    grid-template-columns: 1fr;
+    padding: 5rem 4rem;
+  }
+  .testimonial {
+    padding: 0 0;
+  }
+  .map-img {
+    width: 452px;
+    height: 369px;
+  }
+  .client-content {
+    flex-direction: column;
+  }
+  .footer-content {
+    flex-direction: column;
+  }
+  .form-box {
+    width: 83%;
+  }
+  .form-box button {
+    padding: 13px 28px;
+    font-size: 10px;
+  }
+  .form-box input {
+    font-size: 12px;
+  }
+  .footer-end {
+    flex-direction: column;
+  }
+  .footer-end p {
+    font-size: 15px;
+  }
+  .footer-end ul {
+    margin-top: 10px;
+    font-size: 9px;
+    gap: 15px;
+  }
+}
+
+/* MOBILE L */
+/* @media only screen and (max-width: 426px) {
+
+  
+  
+ 
+ 
+  
+ 
+} */
