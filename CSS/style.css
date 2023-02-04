@@ -378,21 +378,24 @@ h5 {
   margin-bottom: 2.4rem;
 }
 .form-box {
+  display: flex;
   border: 1.8px solid blue;
-  box-shadow: 5px 10px 30px rgb(30 30 30 /40%);
-  border-radius: 6px;
+  border-radius: 4px;
+  box-shadow: 5px 10px 30px rgb(30 30 30 /21%);
 }
 .form-box input {
+  width: 100%;
   font-size: 13px;
   color: #333;
   background-color: #f9f9f9;
   border: none;
-  padding: 10px 22px;
+  padding: 15px 25px;
   outline: none;
 }
 .form-box button {
+  border-radius: 2px;
   color: #fff;
-  padding: 15px 35px;
+  padding: 17px 35px;
   font-size: 10px;
   border: none;
   background-color: blue;
