@@ -90,7 +90,7 @@
     padding: 4rem 4rem;
   }
   .news-text img {
-    height: 250px;
+    height: 325px;
   }
   .testimonial-text {
     display: flex;
@@ -229,6 +229,10 @@
   }
   .form-box input {
     padding: 15px 27px;
+    font-size: 14px;
+  }
+  .form-box button {
+    padding: 8px 53px;
   }
   .social-icon {
     width: 3rem;
@@ -246,5 +250,177 @@
   }
   .client {
     padding: 20px 4rem;
+  }
+}
+@media screen and (min-width: 540px) {
+  .portfolio {
+    padding: 50px 0;
+  }
+  .portfolio-photos img {
+    width: 423px;
+    height: 226px;
+  }
+  .map-img {
+    width: 541px;
+    height: 408px;
+  }
+  .box-x {
+    flex-direction: row;
+  }
+  .footer-info p {
+    font-size: 1.2rem;
+  }
+  .form-box input {
+    width: 85%;
+    font-size: 15px;
+    padding: 8px 50px;
+  }
+  .form-box input {
+    width: 85%;
+    font-size: 25px;
+    padding: 17px 30px;
+  }
+  .form-box button {
+    padding: 5px 53px;
+    font-size: 17px;
+  }
+  .footer-end p {
+    font-size: 18px;
+  }
+  .footer-end ul {
+    font-size: 13px;
+    gap: 15.3px;
+  }
+  .box-x h5 {
+    font-size: 1.5rem;
+  }
+  blockquote {
+    font-size: 1.2rem;
+    line-height: 1.5;
+    color: #aaa;
+  }
+  .logo {
+    font-size: 35px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .logo-nav {
+    padding: 30px 4rem;
+  }
+  .header-text h2 {
+    font-size: 3rem;
+    line-height: 1.2;
+    margin-bottom: 2rem;
+  }
+  .header-text p {
+    font-size: 1.5rem;
+    line-height: 1.5;
+    margin-bottom: 8rem;
+  }
+  .cta {
+    font-size: 1.8rem;
+    padding: 10px 22px;
+  }
+  .about-header {
+    padding: 50px 5.6rem;
+  }
+  .about-header h3,
+  .portfolio-header h3,
+  .news-text h3,
+  .client h3 {
+    font-size: 4.5rem;
+  }
+  .about-header p,
+  .news-text p {
+    margin-bottom: 3.4rem;
+  }
+  .portfolio-header p {
+    padding: 0 2.5rem;
+  }
+  .about-header h3,
+  .portfolio-header h3,
+  .news-text h3,
+  .client h3 {
+    font-size: 3.5rem;
+    line-height: 1.5;
+    margin-bottom: 1.5rem;
+    padding: 0 2.5rem;
+  }
+  .portfolio-photos img {
+    width: 300px;
+    height: 200px;
+  }
+  .news-text img {
+    height: 390px;
+  }
+  .form-box {
+    width: 46%;
+  }
+  .form-box button {
+    padding: 0 40px;
+  }
+  .form-box input {
+    font-size: 13px;
+    padding: 15px 25px;
+  }
+  .news-text {
+    grid-template-columns: 1fr 1fr;
+    padding: 4rem 4rem;
+  }
+  .news-text img {
+    height: 313px;
+  }
+  .grid--3-cols {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+@media screen and (min-width: 896px) {
+  header {
+    height: 140vh;
+  }
+  .logo {
+    font-size: 6.8rem;
+  }
+  .header-text h2 {
+    font-size: 3.2rem;
+  }
+  .header-text p {
+    font-size: 1.8rem;
+    margin-bottom: 4rem;
+  }
+  .grid--3-cols {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .portfolio-photos img {
+    width: 365px;
+    height: 215px;
+  }
+  .news-text {
+    grid-template-columns: 1fr 1fr;
+    padding: 4rem 4rem;
+  }
+  .testimonial-text {
+    display: flex;
+    flex-direction: row;
+  }
+  .map-img {
+    width: 431px;
+    height: 405px;
+  }
+  .client-content {
+    flex-direction: row;
+    gap: 7.2rem;
+  }
+  .footer-content {
+    flex-direction: row;
+  }
+  .footer-list a {
+    font-size: 1.3rem;
+  }
+  .footer-list h4 {
+    font-size: 1.6rem;
+  }
+  .form-box {
+    width: 89%;
   }
 }
