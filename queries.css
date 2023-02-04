@@ -303,6 +303,56 @@
     font-size: 35px;
   }
 }
+@media screen and (min-width: 667px) {
+  header {
+    height: 100vh;
+  }
+  .header-text p {
+    line-height: 2;
+  }
+  .grid--3-cols {
+    grid-template-columns: 1fr 1fr;
+  }
+  .portfolio-header p {
+    font-size: 1.2rem;
+  }
+  .portfolio-photos img {
+    width: 255px;
+    height: 185px;
+  }
+  .portfolio-photos p,
+  .discription {
+    font-size: 12px;
+  }
+  .news-text {
+    grid-template-columns: 1fr 1fr;
+  }
+  .client img {
+    width: 80px;
+    height: 80px;
+  }
+  blockquote {
+    font-size: 9px;
+  }
+  .client-content {
+    flex-direction: row;
+    gap: 6rem;
+  }
+  .form-box {
+    width: 47%;
+  }
+  .footer-list a {
+    font-size: 1.5rem;
+  }
+  .form-box input {
+    font-size: 13px;
+    padding: 14px 26px;
+  }
+  .form-box button {
+    padding: 4px 27px;
+    font-size: 15px;
+  }
+}
 @media screen and (min-width: 768px) {
   .logo-nav {
     padding: 30px 4rem;

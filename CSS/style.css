@@ -378,13 +378,13 @@ h5 {
   margin-bottom: 2.4rem;
 }
 .form-box {
+  width: 100%;
   display: flex;
   border: 1.8px solid blue;
   border-radius: 4px;
   box-shadow: 5px 10px 30px rgb(30 30 30 /21%);
 }
 .form-box input {
-  width: 100%;
   font-size: 13px;
   color: #333;
   background-color: #f9f9f9;
